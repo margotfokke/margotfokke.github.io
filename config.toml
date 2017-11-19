@@ -1,0 +1,306 @@
+# Site settings
+baseurl = "http://mfadviesencoaching.nl/"
+DefaultContentLanguage = "en-us"
+languageCode = "nl-nl"
+title = "Margot Fokke Advies en Coaching"
+theme = "agency"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Margot Fokke"
+  description = "Margot Fokke Advies en Coaching - HR Interim Management."
+
+  # Link custom assets relative to /static
+  custom_css = ["css/custom-colors.css"]
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Oeps, deze link is gebroken"
+    text = "Misschien vind je wat je zocht [hier](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "Margot Fokke Advies en Coaching"
+    # Optional logo as brand stored in img/
+    logo = "brandname.png"
+    services = "Diensten"
+    portfolio = "Opdrachten"
+    about = "Loopbaan"
+    team = "Over Margot"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+#    [[menu.postpend]]
+#      url = "http://gohugo.io"
+#      name = "External link"
+#      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Wat kan ik voor u doen?"
+    subtitle = "Bureau voor</br>HR Interim en Advies"
+    buttonText = "Vertel me meer"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Diensten"
+    subtitle = """Jarenlange internationale ervaring binnen het Human
+    Resources vakgebied in de zakelijke dienstverlening, telecom, shipping en
+    FMCG staat garant voor een succesvolle samenwerking."""
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-briefcase"
+      title = "HR-Interim"
+      description = "Behoefte aan extra versterking op de afdeling Human Resources? Groot HR project, maar geen tijd? Bel me voor een oriënterend gesprek."
+#      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-line-chart"
+      title = "Advies"
+      description = "Hulp nodig bij het opzetten van een HR-afdeling?  Behoefte aan meer strategische inbreng van HR? Ik bied direct toepasbaar advies."
+#      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-comments"
+      title = "Coaching"
+      description = "Heeft u een coachvraag voor uzelf of een van uw medewerkers? Ik pak het graag op, neem het van u over en beantwoord al uw coachvragen."
+#      url = "#"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Opdrachten"
+    subtitle = "Een kleine selectie van mijn vorige opdrachten."
+
+    [params.portfolio.modal]
+      client = "Klant"
+      date = "Datum"
+      category = "Categorie"
+      buttonText = "Sluit project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "Loopbaan"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    endpoint = "Wordt<br>deel van mijn<br>verhaal!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "has.png"
+      date = "1988-1993"
+      title = "Levensmiddelentechnologie"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "March 2011"
+      title = "An Agency is Born"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "December 2012"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "July 2014"
+      title = "Phase Two Expansion"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = "Over mij"
+#    subtitle = "Lorem ipsum dolor sit amet consectetur."
+#    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "margot.jpg"
+      name = "Margot Fokke-Glaser"
+      position = "HR Interim Professional"
+#      reportsTo = "CTO"
+      livesIn = "[Rotterdam](https://www.google.nl/maps/place/Rotterdam/@51.9279515,4.4203671,12z/)"
+      scope = [
+        "mobiel +31618082058",
+        "email [margot.fokke@mfadviesencoaching.nl](mailto:margot.fokke@mfadviesencoaching.nl)",
+#        "Maintainer for [awesome-project](#)",
+#        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+#      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+#She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-map-marker", "https://www.google.nl/maps/place/Rotterdam/@51.9279515,4.4203671,12z/"],
+        ["fa-linkedin", "https://www.linkedin.com/in/margotfokke"],
+#        ["fa-facebook", "#"],
+        ["fa-twitter", "https://twitter.com/margotfokke"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Stuur me een bericht"
+    subtitle  = "Heeft u een vraag, wilt u een afspraak maken of een offerte? Laat het me weten."
+    buttonText = "Verstuur"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+    postURL = "https://formspree.io/margot.fokke@mfadviesencoaching.nl"
+
+    email = "margot.fokke@mfadviesencoaching.nl"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Naam *"
+      warning = "Geef a.u.b. uw naam in."
+
+    [params.contact.form.email]
+      text = "E-mail adres *"
+      warning = "Geef a.u.b. uw email adres in."
+
+    [params.contact.form.phone]
+      text = "Uw telefoonnummer *"
+      warning = "Geef a.u.b. uw telefoonnummer in."
+
+    [params.contact.form.message]
+      text = "Uw bericht *"
+      warning = "Geef a.u.b. uw bericht in."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "#"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"

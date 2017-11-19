@@ -1,0 +1,49 @@
+a {
+  color: #ff8000;
+}
+
+a:focus, a:hover {
+  color: #ff7000;
+}
+
+.btn-primary {
+    border-color: #ff8000;
+    background-color: #ff8000;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #ff8000;
+    color: #fff;
+    background-color: #ff8000;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #ff6000;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    color: #ff7000;
+}
+
+.navbar-default .navbar-brand { color: #ff8000; }
+.btn-xl { border-color: #ff8000; background-color: #ff8000; }
+.text-primary { color: #ff8000; }
+.timeline > li .timeline-image { background-color: #ff8000; }
