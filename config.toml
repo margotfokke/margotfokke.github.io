@@ -140,13 +140,10 @@ googleAnalytics = ""
       img = "has.png"
       date = "1988-1993"
       title = "Levensmiddelentechnologie"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      description = """Na mijn middelbare school in Maastricht ben ik
+      Levensmiddelentechnologie gaan studeren aan de Hogere Agrarische School
+      in Den Bosch. De analytische aanpak van de HAS gebruik ik nog dagelijks
+      in mijn werk."""
 
     [[params.about.events]]
       img = "3.jpg"
