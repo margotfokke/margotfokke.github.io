@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://mfadviesencoaching.nl/"
+baseurl = "https://margotfokke.github.io/"
 DefaultContentLanguage = "en-us"
 languageCode = "nl-nl"
 title = "Margot Fokke Advies en Coaching"
