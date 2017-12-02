@@ -5,12 +5,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ /* logo colors:
+  * #01aaaa
+  * #804d4d 
+  * #8ca13b
+  */
+
 .text-primary {
-    color: #16deb1;
+    color: #01aaaa;
 }
 
 a {
-    color: #16deb1;
+    color: #01aaaa;
 }
 
 a:hover,
